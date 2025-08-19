@@ -1,0 +1,10 @@
+import React from 'react';
+import './Badge.css';
+
+const Badge = ({ children, variant = 'default' }) => (
+  <span className={`badge badge-${variant}`}>
+    {children}
+  </span>
+);
+
+export default Badge;

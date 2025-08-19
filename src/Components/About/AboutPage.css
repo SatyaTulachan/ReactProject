@@ -1,0 +1,27 @@
+.about-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-header-container {
+  margin-bottom: 32px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.about-left-column, 
+.about-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+}
